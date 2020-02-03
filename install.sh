@@ -286,7 +286,7 @@ v2ray_install(){
         exit 4
     fi
     # 清除临时文件
-    rm -rf /root/v2ray
+    # rm -rf /root/v2ray
 }
 nginx_exist_check(){
     if [[ -f "/etc/nginx/sbin/nginx" ]];then
